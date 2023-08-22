@@ -20,6 +20,11 @@ body{
     box-shadow: 0 12px 35px #ffffff;
 }
 
+h1{
+    display: block;
+    text-align: center;
+    margin-bottom: 20%;
+}
 p{
     font-size: 16px;
     color: #000;
