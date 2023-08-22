@@ -25,3 +25,14 @@ span{
     text-align: center;
     font-size: 100px;
 }
+p{
+    font-size: 16px;
+    color: #000;
+    font-family: "Inter";
+    font-weight: 400;
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 35px;
+    margin: 30px 0;
+    opacity: 0;
+}
