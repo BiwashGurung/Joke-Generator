@@ -4,5 +4,10 @@ const url = "https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,polit
 
 let getJoke = () => {
     JokeContainer.classList.remove("fade");
-    
+    fetch(url)
+    .then(data => data.json())
+    .then(item => {
+        JokeContainer.textContent = `${item.joke}`;
+        JokeContainer.classList.toggle("fade");
+    })
 }
