@@ -54,3 +54,6 @@ button{
     margin: 0 auto;
     border-radius: 10px;
 }
+ button:hover {
+    background: #555; 
+}
