@@ -27,4 +27,4 @@ let getJoke = () => {
 };
 
 btn.addEventListener("click", getJoke);
-
+getJoke(); // Fetch a joke when the page loads
